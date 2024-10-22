@@ -13,9 +13,9 @@ function Blogs() {
     } , [])
   return (
     <>
-    <div>
+    <div className='w-2/3'>
         {
-           blogs.map(blog => <Blog blog={blog}></Blog> )
+           blogs.map(blog => <Blog key={blog.id} blog={blog}></Blog> )
         }
     </div>
     </>
