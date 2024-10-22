@@ -1,11 +1,11 @@
 [
     {
       "id": 1,
-      "coverPicture": "../src/assets/1.jpg",
+      "coverPicture": "https://i.ibb.co.com/DRyTdS8/1.jpg",
       "postDate": "2024-10-22",
       "author": {
         "name": "John Doe",
-        "image": "../src/assets/boy1.png"
+        "image": "https://i.ibb.co.com/cwm4VbX/boy2.jpg"
       },
       "name": "Introduction to Web Development",
       "title": "Learn the Basics of Web Development",
@@ -15,59 +15,59 @@
     },
     {
       "id": 2,
-      "coverPicture": "../src/assets/2.png",
+      "coverPicture": "https://i.ibb.co.com/Y3TTgPr/3.png",
       "postDate": "2024-10-21",
       "author": {
         "name": "Jane Smith",
-        "image": "../src/assets/boy2.png"
+        "image": "https://i.ibb.co.com/2s9qNdh/boy1.png"
       },
       "name": "CSS Flexbox Guide",
       "title": "Mastering Flexbox Layout in CSS",
-      "Reading_Time":9,
+      "Reading_Time":19,
       "tags": ["#css", "#flexbox"],
-      "description": "<p>Mark as read</p>"
+      "description": "Mark as read"
     },
     {
       "id": 3,
-      "coverPicture": "../src/assets/3.png",
+      "coverPicture": "https://i.ibb.co.com/fq6Wdxr/4.jpg",
       "postDate": "2024-10-20",
       "author": {
         "name": "Alex Johnson",
-        "image": "../src/assets/girl1.jpg"
+        "image": "https://i.ibb.co.com/0Y8yfDP/girl2.jpg"
       },
       "name": "JavaScript Best Practices",
       "title": "Enhance Your JavaScript Code",
-      "Reading_Time":9,
+      "Reading_Time":6,
       "tags": ["#javascript", "#bestpractices"],
-      "description": "<p>Mark as read</p>"
+      "description": "Mark as read"
     },
     {
       "id": 4,
-      "coverPicture": "../src/assets/4.jpg",
+      "coverPicture": "https://i.ibb.co.com/DRyTdS8/1.jpg",
       "postDate": "2024-10-19",
       "author": {
         "name": "Emma Brown",
-        "image": "../src/assets/girl2.jpg"
+        "image": "https://i.ibb.co.com/jgLMgRJ/girl1.jpg"
       },
       "name": "Node.js Tutorial",
       "title": "Getting Started with Node.js",
-      "Reading_Time":9,
+      "Reading_Time":17,
       "tags": ["#nodejs", "#backend"],
-      "description": "<p>Mark as read</p>"
+      "description": "Mark as read"
     },
     {
       "id": 5,
-      "coverPicture": "../src/assets/2.png",
+      "coverPicture": "https://i.ibb.co.com/ZdkfJ3k/2.png",
       "postDate": "2024-10-18",
       "author": {
         "name": "Chris White",
-        "image": "../src/assets/2.png"
+        "image": "https://i.ibb.co.com/0Y8yfDP/girl2.jpg"
       },
       "name": "React.js Hooks",
       "title": "Understanding React Hooks",
-      "Reading_Time":9,
+      "Reading_Time":15,
       "tags": ["#react", "#hooks"],
-      "description": "<p>Mark as read</p>"
+      "description": "Mark as read"
     }
   ]
   

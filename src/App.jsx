@@ -12,17 +12,22 @@ function App() {
   const handleBookMark = (title) =>{
     const newBook = [...bookmark , title]
     setBookMark(newBook)
-   
   }
-
+const [markRead , setMarkRead] = useState(0)
+const handleMarkRead = (read) => {
+  const newMarkRead = markRead+read
+  
+  setMarkRead(newMarkRead)
+}
   return (
    <>
+   <Header></Header>
   <div className='container mx-auto'>
-  <Header></Header>
-  <div className='md:flex '>
-  <Blogs handleBookMark = {handleBookMark}></Blogs>
   
-     <Bookmark bookmark={bookmark} />
+  <div className='md:flex '>
+  <Blogs handleMarkRead={handleMarkRead} handleBookMark = {handleBookMark}></Blogs>
+  
+     <Bookmark markRead={markRead} bookmark={bookmark} />
   
   </div>
   </div>

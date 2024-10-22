@@ -1,7 +1,10 @@
 import PropTypes from 'prop-types';
+import { useState } from 'react';
 import { MdOutlineBookmarks } from "react-icons/md";
-function Blog({blog , handleBookMark}) {
+function Blog({blog , handleBookMark , handleMarkRead}) {
     const {coverPicture,postDate,author,name,title,Reading_Time,tags,description} = blog
+    const [color , setColor]=useState(false)
+
   return (
     <>
     <>
@@ -33,7 +36,9 @@ function Blog({blog , handleBookMark}) {
     tags.map((hash , idx) => <span key={idx}> {hash}</span>)
    }
    </div>
-    <p className='underline text-sm font-semibold text-gray-500 cursor-pointer'>{description}</p>
+    <p onClick={()=> {handleMarkRead(Reading_Time)
+        setColor(true)
+    }} className={`underline text-sm font-semibold ${color ? 'text-orange-400' : 'text-gray-500'}  cursor-pointer`}>{description}</p>
   </div>
 </div>
     </div>

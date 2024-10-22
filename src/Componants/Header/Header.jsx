@@ -1,12 +1,13 @@
 import React from 'react'
 import Profile from '../../assets/boy1.png'
+import Logo from '../../assets/kn.png'
 
 function Header() {
   return (
     <>
-     <div className="navbar bg-base-100">
+     <div className="navbar bg-orange-100">
   <div className="flex-1">
-   <h1 className='text-2xl md:text-4xl font-bold'>Knowladge CaFe</h1>
+   <img className='rounded-3xl h-12' src={Logo} alt="" />
   </div>
   <div className="flex-none gap-2">
     <div className="form-control">
