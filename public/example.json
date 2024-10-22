@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "coverPicture": "../src/assets/1.jpg",
+      "postDate": "2024-10-22",
+      "author": {
+        "name": "John Doe",
+        "image": "../src/assets/boy1.png"
+      },
+      "name": "Introduction to Web Development",
+      "title": "Learn the Basics of Web Development",
+      "Reading_Time":9,
+      "tags": ["#webdev", "#programming"],
+      "description": "<p>Mark as read</p>"
+    },
+    {
+      "id": 2,
+      "coverPicture": "../src/assets/2.png",
+      "postDate": "2024-10-21",
+      "author": {
+        "name": "Jane Smith",
+        "image": "../src/assets/boy2.png"
+      },
+      "name": "CSS Flexbox Guide",
+      "title": "Mastering Flexbox Layout in CSS",
+      "Reading_Time":9,
+      "tags": ["#css", "#flexbox"],
+      "description": "<p>Mark as read</p>"
+    },
+    {
+      "id": 3,
+      "coverPicture": "../src/assets/3.png",
+      "postDate": "2024-10-20",
+      "author": {
+        "name": "Alex Johnson",
+        "image": "../src/assets/girl1.jpg"
+      },
+      "name": "JavaScript Best Practices",
+      "title": "Enhance Your JavaScript Code",
+      "Reading_Time":9,
+      "tags": ["#javascript", "#bestpractices"],
+      "description": "<p>Mark as read</p>"
+    },
+    {
+      "id": 4,
+      "coverPicture": "../src/assets/4.jpg",
+      "postDate": "2024-10-19",
+      "author": {
+        "name": "Emma Brown",
+        "image": "../src/assets/girl2.jpg"
+      },
+      "name": "Node.js Tutorial",
+      "title": "Getting Started with Node.js",
+      "Reading_Time":9,
+      "tags": ["#nodejs", "#backend"],
+      "description": "<p>Mark as read</p>"
+    },
+    {
+      "id": 5,
+      "coverPicture": "../src/assets/2.png",
+      "postDate": "2024-10-18",
+      "author": {
+        "name": "Chris White",
+        "image": "../src/assets/2.png"
+      },
+      "name": "React.js Hooks",
+      "title": "Understanding React Hooks",
+      "Reading_Time":9,
+      "tags": ["#react", "#hooks"],
+      "description": "<p>Mark as read</p>"
+    }
+  ]
+  
