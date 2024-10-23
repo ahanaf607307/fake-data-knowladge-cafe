@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { useState } from 'react';
 import { MdOutlineBookmarks } from "react-icons/md";
 function Blog({blog , handleBookMark , handleMarkRead}) {
-    const {coverPicture,postDate,author,name,title,Reading_Time,tags,description} = blog
+    const {id,coverPicture,postDate,author,name,title,Reading_Time,tags,description} = blog
     const [color , setColor]=useState(false)
 
   return (
@@ -26,7 +26,7 @@ function Blog({blog , handleBookMark , handleMarkRead}) {
     </div>
     <div className='flex gap-x-2 items-center'>
         <h1 className='font-semibold text-gray-500'>{Reading_Time} min read</h1>
-        <button onClick={() => handleBookMark(name)} className="btn bg-gray-50 "><MdOutlineBookmarks className='text-xl'/></button>
+        <button onClick={() => handleBookMark(blog)} className="btn bg-gray-50 "><MdOutlineBookmarks className='text-xl'/></button>
     </div>
     </div>
     <h1 className='text-2xl md:text-4xl font-bold my-3 text-gray-700 pr-5 '>{name}</h1>
@@ -36,7 +36,7 @@ function Blog({blog , handleBookMark , handleMarkRead}) {
     tags.map((hash , idx) => <span key={idx}> {hash}</span>)
    }
    </div>
-    <p onClick={()=> {handleMarkRead(Reading_Time)
+    <p onClick={()=> {handleMarkRead(id,Reading_Time)
         setColor(true)
     }} className={`underline text-sm font-semibold ${color ? 'text-orange-400' : 'text-gray-500'}  cursor-pointer`}>{description}</p>
   </div>

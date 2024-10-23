@@ -13,12 +13,17 @@ function App() {
     const newBook = [...bookmark , title]
     setBookMark(newBook)
   }
+
+
 const [markRead , setMarkRead] = useState(0)
-const handleMarkRead = (read) => {
+const handleMarkRead = (id,read) => {
+  console.log(id);
   const newMarkRead = markRead+read
-  
   setMarkRead(newMarkRead)
+  const remaining = bookmark.filter(bookm => bookm.id !== id)
+  setBookMark(remaining)
 }
+console.log(bookmark);
   return (
    <>
    <Header></Header>

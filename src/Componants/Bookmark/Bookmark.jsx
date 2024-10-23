@@ -14,8 +14,8 @@ function Bookmark({bookmark , markRead}) {
     <h1 className="font-bold text-xl text-gray-700 mb-3">Bookmarked Blogs: {bookmark.length}</h1>
     <div className="flex flex-col gap-y-5">
     { 
-     
-      bookmark.map(book => <BookDisplay  key={book} book={book} />)
+      
+      bookmark.map((book , idx) => <BookDisplay  key={idx} book={book} />)
       
     }
     </div>
